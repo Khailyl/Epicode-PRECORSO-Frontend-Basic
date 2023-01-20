@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WeMusic - Registration Page</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="overlay">
+            <img class="icon" src="assets/icon_wemusic_positive.png" alt="icon_wemusic">
+            <div class="content">
+                <div id="card">
+                    <img class="logo" src="assets/logo_wemusic.png" alt="logo_wemusic">
+                    <form onsubmit="alert('Registrazione inviata')">
+                        <div class="input-name">
+                            <ion-icon name="person-circle-sharp"></ion-icon>
+                            <input class="formtext" type="text" placeholder="nome utente" required>
+                        </div>
+                        <div class="input-name">
+                            <ion-icon name="mail-sharp"></ion-icon>
+                            <input class="formtext" type="email" placeholder="email" required>
+                        </div>
+                        <div class="input-name">
+                            <ion-icon name="lock-open-sharp"></ion-icon>
+                            <input class="formtext" type="password" placeholder="password" required>
+                        </div>
+                        <div class="input-name">
+                            <ion-icon name="calendar-number-sharp"></ion-icon>
+                            <input class="formtext" type="date" placeholder="data di nascita" required>
+                        </div>
+                        <div class="input-name">
+                            <ion-icon name="call-sharp"></ion-icon>
+                            <input class="formtext" type="number" placeholder="cellulare" required>
+                        </div>
+                        <h2>Aiutaci a conoscerti</h2>
+                        <div class="input-genre">
+                            <div id="genre" class="genrebg1"><input class="radiobutton" type="radio" name="r1">
+                            <label>POP</label></div>
+                            <div id="genre" class="genrebg2"><input class="radiobutton" type="radio" name="r2">
+                            <label>ROCK</label></div>
+                            <div id="genre" class="genrebg3"><input class="radiobutton" type="radio" name="r3">
+                            <label>80/90</label></div>
+                            <div id="genre" class="genrebg4"><input class="radiobutton" type="radio" name="r4">
+                            <label>RAP</label></div>
+                            <div id="genre" class="genrebg5"><input class="radiobutton" type="radio"  name="r5">
+                            <label>DANCE</label></div>
+                            <div id="genre" class="genrebg6"><input class="radiobutton" type="radio"  name="r6">
+                            <label>CLASSIC</label></div>
+                        </div>
+                        <div class="input-name">
+                            <input class="checkbutton" type="checkbox" required>
+                            <p>Accetti i termini e condizioni</p>
+                        </div>
+                        <div class="input-name">
+                            <input class="button" type="submit" value="Registrati">
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <h1>ASCOLTA<br>LA TUA<br>MUSICA<br>DOVE<br>VUOI</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
